@@ -3,40 +3,7 @@
 <html>
     <head>
         <script>
-            let greeting = "Hello"// This is comment
-            const library = [
-                {
-                    author: 'Bill Gates',
-                    title: 'The Road Ahead',
-                    readingStatus: true
-                },
-                {
-                    author: 'Steve Jobs',
-                    title: 'Walter Isaacson',
-                    readingStatus: true
-                },
-                {
-                    author: 'Suzanne Collins',
-                    title:  'Mockingjay: The Final Book of The Hunger Games', 
-                    readingStatus: false
-                }
-            ];
-            console.log(greeting);
-
-            function ourFunction(){
-                console.log("on Click");
-                /* document.getElementById("demo").innerHTML = "Du har klickat på en rubrik"; */
-                const parent = document.getElementById("demo");
-                library.forEach(function(book){
-                    const child = document.createElement("p");
-                    child.innerHTML = `${book.author}: ${book.title}`
-                    parent.appendChild(child);
-                });
-            };
-
-            function onHover(){
-                console.log("on Hover");
-            };
+            
         </script>
     </head>
     <body>
